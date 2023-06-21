@@ -1,0 +1,47 @@
+.tarjeta{
+    border: 0.5px solid var(--fuente-oscura);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: all 0.5s;
+}
+
+.tarjeta__oscura:hover{
+    border: none;
+    background-color: var(--background-dark-alto);
+}
+
+.tarjeta__clara:hover{
+    border: none;
+    background-color: var(--background-dark-medio);
+}
+
+.tarjeta__habilidad{
+    width: 145px;
+    height: 145px;
+    margin: 10px;
+    align-items: center;
+}
+
+.tarjeta__imagen{
+    height: 100px;
+}
+
+.tarjeta__imagen--hobbie{
+    fill: var(--fuente-oscura);
+    transition: all 0.5s;
+}
+
+.tarjeta__imagen--hobbie:hover{
+    fill: var(--fuente-clara);
+}
+
+.tarjeta__texto{
+    color: var(--fuente-oscura);
+    text-align: center;
+}
+
+.tarjeta--hobbie:hover{
+    background-color: var(--background-dark-alto);
+}

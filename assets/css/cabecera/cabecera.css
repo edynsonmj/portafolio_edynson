@@ -1,0 +1,13 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera__nombre{
+    color: var(--fuente-clara);
+}
+
+.cabecera__email{
+    color: var(--fuente-oscura);
+}

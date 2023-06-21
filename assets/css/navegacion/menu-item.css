@@ -1,0 +1,22 @@
+.menu__item{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: var(--background-dark-medio);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--fuente-oscura);
+    font-weight: bold;
+}
+
+.menu__item:hover{
+    border-color: var(--fuente-clara);
+    font-size:x-large;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.menu__link{
+    text-decoration: none;
+}

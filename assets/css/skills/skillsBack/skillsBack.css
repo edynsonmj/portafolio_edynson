@@ -1,0 +1,10 @@
+.skills__back{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.skills__back--container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

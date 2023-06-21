@@ -1,0 +1,21 @@
+.enlaces {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container__imagen {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid var(--fuente-oscura);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlace__icono {
+    width: 50px;
+    fill: var(--fuente-oscura);
+}

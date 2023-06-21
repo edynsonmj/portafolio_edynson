@@ -1,0 +1,13 @@
+.hobbies{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-inline: 1rem;
+    background-color: var(--background-dark-medio);
+    text-align: center;
+}
+
+.hobbies__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

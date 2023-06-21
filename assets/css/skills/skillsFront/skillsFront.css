@@ -1,0 +1,9 @@
+.skills__front{
+    text-align: center;
+}
+
+.skills__front--container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

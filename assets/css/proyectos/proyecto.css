@@ -1,0 +1,34 @@
+.proyecto{
+    margin-top: 1rem;
+}
+
+.proyecto__contenido{
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.proyecto__contenido--encriptador{
+    background-image: url("../../img/encriptador.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.proyecto__descripcion{
+    margin: 0;
+}
+
+.proyecto__controles{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.proyecto__boton--repositorio{
+    padding-inline: 30px;
+}
+
+.proyecto__boton--demo{
+    padding-inline: 30px;
+}

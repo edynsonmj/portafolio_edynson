@@ -1,0 +1,58 @@
+:root{
+    --background-fondo: #000000; /*mientras se prueba, cambiar luego a 000000*/
+    --background-dark-alto: #010409;
+    --background-dark-medio: #0D1117;
+    --background-dark-bajo: #161B22;
+
+    --fuente-clara: #F0F6FC;
+    --fuente-oscura: #7D8590;
+
+    --azul-claro: #00BCD4;
+    --azul-oscuro: #1976D2;
+}
+
+html{
+    background-color: var(--background-fondo);
+}
+
+body{
+    background-color: var(--background-dark-alto);
+}
+
+.activable{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.activable:hover{
+    color: var(--fuente-clara);
+    fill: var(--fuente-clara);
+}
+
+.titulo{
+    color: var(--fuente-clara);
+}
+
+.texto{
+    color: var(--fuente-oscura);
+}
+
+.boton{
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.boton__transparente{
+    background-color: transparent;
+    border: 1px solid var(--fuente-oscura);
+    color: var(--fuente-oscura);
+    transition: all 0.5s;
+}
+
+.boton__transparente:hover{
+    background-color: var(--fuente-clara);
+    border: 1px solid var(--fuente-clara);
+    color: var(--background-dark-alto);
+}

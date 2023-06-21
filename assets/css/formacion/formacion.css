@@ -1,0 +1,39 @@
+.formacion{
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+.formacion__titulo{
+    color: var(--fuente-oscura);
+    text-align: start;
+}
+
+.formacion__informacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.formacion__detalle{
+    color: var(--fuente-oscura);
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-size: medium;
+}
+
+.formacion__estado{
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: var(--fuente-clara);
+}
+
+.formacion__estado--progreso{
+    background-color: var(--azul-claro);
+}
+
+.formacion__estado--finalizada{
+    background-color: var(--azul-oscuro);
+}
