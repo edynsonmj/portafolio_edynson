@@ -21,13 +21,25 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
     .menu__item{
         width: 120px;
         margin-left: 5px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .menu__item{
+        width: 120px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     
+}
+
+@media screen and (min-width: 1200px) {
+    .menu__item{
+        width: 150px;
+    }
 }
