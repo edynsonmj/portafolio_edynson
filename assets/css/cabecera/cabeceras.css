@@ -2,3 +2,9 @@
     padding-inline: 1rem;
     padding-top: 2rem;
 }
+
+@media screen and (min-width: 768px){
+    .cabeceras{
+        padding-inline: 2rem;
+    }
+}

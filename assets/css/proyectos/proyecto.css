@@ -32,3 +32,9 @@
 .proyecto__boton--demo{
     padding-inline: 30px;
 }
+
+@media screen and (min-width: 768px){
+    .proyecto{
+        width: 80%;
+    }
+}

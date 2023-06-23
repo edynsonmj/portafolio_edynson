@@ -2,3 +2,9 @@
     padding: 1rem;
     background-color: var(--background-dark-medio);
 }
+
+@media screen and (min-width: 768px){
+    .sobre{
+        padding-inline: 2rem;
+    }
+}

@@ -4,3 +4,19 @@
     padding-inline: 1rem;
     text-align: center;
 }
+
+.formaciones__container{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .formaciones{
+        padding-inline: 2rem;
+    }
+
+    .formaciones__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -11,11 +11,11 @@
     --azul-oscuro: #1976D2;
 }
 
-html{
-    background-color: var(--background-fondo);
+body{
+    background-color: var(--background-dark-bajo);
 }
 
-body{
+.contenedor{
     background-color: var(--background-dark-alto);
 }
 
@@ -55,4 +55,17 @@ body{
     background-color: var(--fuente-clara);
     border: 1px solid var(--fuente-clara);
     color: var(--background-dark-alto);
+}
+
+@media screen and (min-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor{
+        border-radius: 20px;
+        width: 90%;
+        margin-top: 3rem;
+    }
 }
