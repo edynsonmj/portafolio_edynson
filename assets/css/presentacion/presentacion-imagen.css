@@ -9,3 +9,9 @@
         width: 25%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .presentacion__imagen{
+        width: 20%;
+    }
+}

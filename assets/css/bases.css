@@ -69,3 +69,10 @@ body{
         margin-top: 3rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .contenedor{
+        width: 75%;
+        margin-top: 4rem;
+    }
+}

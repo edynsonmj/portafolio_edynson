@@ -8,3 +8,9 @@
         padding-inline: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .cabeceras{
+        padding-inline: 3rem;
+    }
+}

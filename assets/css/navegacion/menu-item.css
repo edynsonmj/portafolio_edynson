@@ -11,7 +11,7 @@
 
 .menu__item:hover{
     border-color: var(--fuente-clara);
-    font-size:x-large;
+    font-size:large;
     font-weight: bold;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -19,4 +19,15 @@
 
 .menu__link{
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__item{
+        width: 120px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
