@@ -19,3 +19,23 @@
     width: 50px;
     fill: var(--fuente-oscura);
 }
+
+.enlace__link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.enlace__descripcion{
+    color: var(--fuente-oscura);
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .enlaces{
+        justify-content: center;
+    }
+    .enlace{
+        margin-inline: 3rem;
+    }
+}

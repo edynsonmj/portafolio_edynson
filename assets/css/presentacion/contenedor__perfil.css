@@ -1,0 +1,50 @@
+.presentacion__perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion__imagen{
+    border-radius: 100%;
+    width: 40%;
+    margin: 1rem;
+}
+
+.presentacion__titulo{
+    text-align: center;
+}
+
+.presentacion__descripcion{
+    color: var(--fuente-oscura);
+    text-align: center;
+}
+
+@media screen and (min-width: 450px){
+    .contenedor__perfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .presentacion__info{
+        width: 30%;
+        padding-right: 10%;
+    }
+
+    .presentacion__perfil{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contenedor__perfil{
+        margin-bottom: 2rem;
+    }
+
+    .presentacion__info{
+        width: 40%;
+    }
+
+    .presentacion__perfil{
+        width: 60%;
+    }
+}

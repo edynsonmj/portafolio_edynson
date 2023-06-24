@@ -8,5 +8,6 @@
 @media screen and (min-width: 768px){
     .presentacion{
         padding-inline: 2rem;
+        padding-bottom: 3rem;
     }
 }
