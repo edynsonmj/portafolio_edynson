@@ -282,30 +282,51 @@
                 <form class="contacto__form">
                     <div class="contacto__item">
                         <label class="texto">Nombre:</label>
-                        <input class="contacto__input contacto__input--text" 
+                        <input 
+                            id="contacto-nombre"
+                            class="contacto__input contacto__input--text" 
                             placeholder="Escribe tu nombre" 
                             required
-                            maxlength="50">
+                            maxlength="50"
+                            data-tipo="nombre"
+                            >
+                        <span class="error__input"></span>
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Correo electronico:</label>
-                        <input type="email" class="contacto__input contacto__input--text"
+                        <input 
+                            id="contacto-email"
+                            type="email" 
+                            class="contacto__input contacto__input--text"
                             placeholder="Escribe tu email"
-                            required>
+                            required
+                            data-tipo="correo"
+                            >
+                        <span class="error__input"></span>
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Asunto:</label>
-                        <input class="contacto__input contacto__input--text" 
+                        <input 
+                            id="contacto-asunto"
+                            class="contacto__input contacto__input--text" 
                             placeholder="Asunto"
                             required
-                            maxlength="50">
+                            maxlength="50"
+                            data-tipo="asunto"
+                            >
+                        <span class="error__input"></span>
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Mensaje:</label>
-                        <textarea class="contacto__input--textarea contacto__input"
+                        <textarea 
+                            id="contacto-mensaje"
+                            class="contacto__input--textarea contacto__input"
                             placeholder="Escribe tu mensaje aquí"
                             required
-                            maxlength="300"></textarea>
+                            maxlength="300"
+                            data-tipo="mensaje"
+                            ></textarea>
+                        <span class="error__input"></span>
                     </div>
                     <div class="contacto__item">
                         <button class="boton boton__transparente contacto__enviar">Enviar mensaje</button>
@@ -313,7 +334,7 @@
                 </form>
             </div>
         </section>
-
+        <script src="app.js" type="module"></script>
     </main>
     </div>
 
