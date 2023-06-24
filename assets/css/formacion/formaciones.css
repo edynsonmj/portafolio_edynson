@@ -12,11 +12,12 @@
 @media screen and (min-width: 768px){
     .formaciones{
         padding-inline: 2rem;
-    }
-
-    .formaciones__container{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .formaciones__container{
+        width: 70%;
     }
 }

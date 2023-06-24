@@ -31,6 +31,7 @@ body{
 
 .titulo{
     color: var(--fuente-clara);
+    margin-bottom: 1rem;
 }
 
 .texto{

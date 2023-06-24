@@ -146,7 +146,7 @@
 
         <section class="skills" id="skills">
             <section class="skills__back">
-                <h3 class="titulo">Skills backend</h3>
+                <h3 class="titulo skills__titulo">Skills backend</h3>
                 <div class="skills__back--container">
                     <div class="tarjeta tarjeta__clara tarjeta__habilidad">
                         <img src="assets/img/logo-java1.png" alt="logo java" class="tarjeta__imagen">
@@ -167,7 +167,7 @@
                 </div>
             </section>
             <section class="skills__front">
-                <h3 class="titulo">Skills frontend</h3>
+                <h3 class="titulo skills__titulo">Skills frontend</h3>
                 <div class="skills__front--container">
                     <div class="tarjeta tarjeta__clara tarjeta__habilidad">
                         <img src="assets/img/logo-HTML5.png" alt="logo java" class="tarjeta__imagen">
@@ -274,31 +274,35 @@
         </section>
 
         <section class="contacto" id="contacto">
-            <h3 class="titulo">Contactame</h3>
-            <p class="texto contacto__descripcion">Completa el siguiente formulario y me pondre en contacto con tigo
-                lo antes posible.</p>
-            <form class="contacto__form">
-                <div class="contacto__item">
-                    <label class="texto">Nombre:</label>
-                    <input class="contacto__input contacto__input--text" placeholder="Escribe tu nombre">
-                </div>
-                <div class="contacto__item">
-                    <label class="texto">Correo electronico:</label>
-                    <input type="email" class="contacto__input contacto__input--text" placeholder="Escribe tu email">
-                </div>
-                <div class="contacto__item">
-                    <label class="texto">Asunto:</label>
-                    <input class="contacto__input contacto__input--text" placeholder="Asunto">
-                </div>
-                <div class="contacto__item">
-                    <label class="texto">Mensaje:</label>
-                    <textarea class="contacto__input--textarea contacto__input"
-                        placeholder="Escribe tu mensaje aquí"></textarea>
-                </div>
-                <div class="contacto__item">
-                    <button class="boton boton__transparente contacto__enviar">Enviar mensaje</button>
-                </div>
-            </form>
+            <div class="contacto__contenedor">
+                <h3 class="titulo">Contactame</h3>
+                <p class="texto contacto__descripcion">¿Deseas contactarme?</p>
+                <p class="texto contacto__descripcion">Completa el siguiente formulario y me pondre en contacto con tigo
+                    lo antes posible.</p>
+                <form class="contacto__form">
+                    <div class="contacto__item">
+                        <label class="texto">Nombre:</label>
+                        <input class="contacto__input contacto__input--text" placeholder="Escribe tu nombre">
+                    </div>
+                    <div class="contacto__item">
+                        <label class="texto">Correo electronico:</label>
+                        <input type="email" class="contacto__input contacto__input--text"
+                            placeholder="Escribe tu email">
+                    </div>
+                    <div class="contacto__item">
+                        <label class="texto">Asunto:</label>
+                        <input class="contacto__input contacto__input--text" placeholder="Asunto">
+                    </div>
+                    <div class="contacto__item">
+                        <label class="texto">Mensaje:</label>
+                        <textarea class="contacto__input--textarea contacto__input"
+                            placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <div class="contacto__item">
+                        <button class="boton boton__transparente contacto__enviar">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
         </section>
 
     </main>

@@ -14,7 +14,7 @@
 
 .tarjeta__clara:hover{
     border: none;
-    background-color: var(--background-dark-medio);
+    background-color: var(--background-dark-bajo);
 }
 
 .tarjeta__habilidad{
@@ -44,4 +44,13 @@
 
 .tarjeta--hobbie:hover{
     background-color: var(--background-dark-alto);
+}
+
+@media screen and (min-width: 760px){
+    .tarjeta__clara{
+        background-color: var(--background-dark-medio);
+    }
+    .tarjeta__clara:hover{
+        background-color: var(--background-fondo);
+    }
 }
