@@ -282,21 +282,30 @@
                 <form class="contacto__form">
                     <div class="contacto__item">
                         <label class="texto">Nombre:</label>
-                        <input class="contacto__input contacto__input--text" placeholder="Escribe tu nombre">
+                        <input class="contacto__input contacto__input--text" 
+                            placeholder="Escribe tu nombre" 
+                            required
+                            maxlength="50">
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Correo electronico:</label>
                         <input type="email" class="contacto__input contacto__input--text"
-                            placeholder="Escribe tu email">
+                            placeholder="Escribe tu email"
+                            required>
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Asunto:</label>
-                        <input class="contacto__input contacto__input--text" placeholder="Asunto">
+                        <input class="contacto__input contacto__input--text" 
+                            placeholder="Asunto"
+                            required
+                            maxlength="50">
                     </div>
                     <div class="contacto__item">
                         <label class="texto">Mensaje:</label>
                         <textarea class="contacto__input--textarea contacto__input"
-                            placeholder="Escribe tu mensaje aquí"></textarea>
+                            placeholder="Escribe tu mensaje aquí"
+                            required
+                            maxlength="300"></textarea>
                     </div>
                     <div class="contacto__item">
                         <button class="boton boton__transparente contacto__enviar">Enviar mensaje</button>
