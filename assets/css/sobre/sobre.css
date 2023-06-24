@@ -3,8 +3,29 @@
     background-color: var(--background-dark-medio);
 }
 
+.sobre__imagen{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     .sobre{
-        padding-inline: 2rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .sobre__contenido{
+        width: 40%;
+    }
+
+    .sobre__imagen{
+        margin-left: 10px;
+        display: inline;
+        width: 400px;
+        height: 400px;
+        background-image: url("../../img/programando.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
