@@ -34,7 +34,7 @@
 
 .contacto__input:hover{
     background-color: var(--background-dark-medio);
-    border: 0.5px solid var(--fuente-clara)
+    border: 0.5px solid var(--fuente-oscura)
 }
 
 .contacto__input--text{
