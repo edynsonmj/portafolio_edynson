@@ -4,6 +4,7 @@
     padding-inline: 1rem;
     background-color: var(--background-dark-medio);
     text-align: center;
+    border-radius: 0 0 20px 20px;
 }
 
 .hobbies__container{
