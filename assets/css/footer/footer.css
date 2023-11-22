@@ -8,6 +8,11 @@
     color: var(--fuente-oscura);
 }
 
+.footer__motivo{
+    text-align: center;
+    margin: 50px;
+}
+
 @media screen and (min-width: 768px){
     .footer{
         background-color: transparent;

@@ -5,13 +5,17 @@
 .proyecto__contenido{
     height: 200px;
     margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.proyecto__contenido--portafolio{
+    background-image: url("../../img/proyecto-portafolio.png");
 }
 
 .proyecto__contenido--encriptador{
     background-image: url("../../img/proyecto1org.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .proyecto__descripcion{
@@ -31,6 +35,25 @@
 
 .proyecto__boton--demo{
     padding-inline: 30px;
+}
+
+.proyecto__habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.proyecto__habilidad{
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: var(--fuente-clara);
+    /*
+    #386A1F
+    #BA1A1A
+    */
+
+    background-color: #BA1A1A;
+    margin: 5px;
 }
 
 @media screen and (min-width: 768px){
