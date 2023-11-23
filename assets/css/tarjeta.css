@@ -1,10 +1,17 @@
 .tarjeta{
-    border: 0.5px solid var(--fuente-oscura);
+    /*border: 0.5px solid var(--fuente-oscura);*/
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     transition: all 0.5s;
+}
+
+.tarjeta__clara{
+    background-color: var(--background-dark-medio);
+}
+.tarjeta__oscura{
+    background-color: var(--background-dark-bajo);
 }
 
 .tarjeta__oscura:hover{
@@ -52,5 +59,8 @@
     }
     .tarjeta__clara:hover{
         background-color: var(--background-fondo);
+    }
+    .tarjeta__oscura{
+        background-color: var(--background-dark-bajo);
     }
 }
