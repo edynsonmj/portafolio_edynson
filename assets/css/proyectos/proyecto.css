@@ -14,8 +14,12 @@
     background-image: url("../../img/proyecto-portafolio.png");
 }
 
-.proyecto__contenido--encriptador{
+.proyecto__contenido--org{
     background-image: url("../../img/proyecto1org.png");
+}
+
+.proyecto__contenido--deporte{
+    background-image: url("../../img/proyecto-deporte.png");
 }
 
 .proyecto__descripcion{
