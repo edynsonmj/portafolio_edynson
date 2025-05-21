@@ -2,7 +2,7 @@
     text-align: center;
     margin-bottom: 0.5rem;
     border-radius: 5px;
-    background-color: var(--background-dark-medio);
+    background-color: var(--background-dark-bajo);
     padding-top: 10px;
     padding-bottom: 10px;
     color: var(--fuente-oscura);
@@ -10,15 +10,18 @@
 }
 
 .menu__item:hover{
-    border-color: var(--fuente-clara);
+    border-color: var(--fuente-oscura);
     font-size:large;
     font-weight: bold;
     padding-top: 12px;
     padding-bottom: 12px;
+    color: var(--fuente-oscura);
+    background-color: var(--fuente-clara);
 }
 
 .menu__link{
     text-decoration: none;
+    color: inherit;
 }
 
 @media screen and (min-width: 450px) {

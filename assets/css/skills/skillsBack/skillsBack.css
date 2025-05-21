@@ -11,7 +11,6 @@
 
 @media screen and (min-width: 768px){
     .skills__back{
-        background-color: var(--background-dark-bajo);
         border-radius: 10px;
         padding: 1rem;
         margin: 0.5rem;

@@ -1,5 +1,4 @@
 .tarjeta{
-    /*border: 0.5px solid var(--fuente-oscura);*/
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -8,10 +7,10 @@
 }
 
 .tarjeta__clara{
-    background-color: var(--background-dark-medio);
+    background-color: var(--background-dark-bajo);
 }
 .tarjeta__oscura{
-    background-color: var(--background-dark-bajo);
+    background-color: var(--background-dark-alto);
 }
 
 .tarjeta__oscura:hover{
@@ -31,6 +30,24 @@
     align-items: center;
 }
 
+.tarjeta__hobbie{
+    background-color: var(--background-dark-alto);
+    width: 145px;
+    height: 145px;
+    margin: 5px;
+    align-items: center;
+}
+
+.tarjeta__hobbie:hover{
+    background-color: var(--fuente-clara);
+    text-decoration-color: black;
+}
+
+.tarjeta__habilidad:hover{
+    background-color: var(--fuente-clara);
+    color: black;
+}
+
 .tarjeta__imagen{
     height: 100px;
 }
@@ -41,7 +58,7 @@
 }
 
 .tarjeta__imagen--hobbie:hover{
-    fill: var(--fuente-clara);
+    fill: var(--background-dark-alto);
 }
 
 .tarjeta__texto{
@@ -54,6 +71,7 @@
 }
 
 @media screen and (min-width: 760px){
+    /**
     .tarjeta__clara{
         background-color: var(--background-dark-medio);
     }
@@ -62,5 +80,5 @@
     }
     .tarjeta__oscura{
         background-color: var(--background-dark-bajo);
-    }
+    }*/
 }
