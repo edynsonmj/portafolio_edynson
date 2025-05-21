@@ -38,74 +38,74 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
     └── 📁assets
         └── 📁css
             └── 📁cabecera
-                └── cabecera.css
-                └── cabeceras.css
-                └── correo.css
-                └── logo.css
-                └── nombre.css
+                └──🎨 cabecera.css
+                └──🎨 cabeceras.css
+                └──🎨 correo.css
+                └──🎨 logo.css
+                └──🎨 nombre.css
             └── 📁contacto
-                └── contacto.css
+                └──🎨 contacto.css
             └── 📁footer
-                └── footer.css
+                └──🎨 footer.css
             └── 📁formacion
-                └── formacion.css
-                └── formaciones.css
+                └──🎨 formacion.css
+                └──🎨 formaciones.css
             └── 📁hobbies
-                └── hobbies.css
+                └──🎨 hobbies.css
             └── 📁navegacion
-                └── menu-item.css
-                └── menu-lista.css
-                └── menu.css
+                └──🎨 menu-item.css
+                └──🎨 menu-lista.css
+                └──🎨 menu.css
             └── 📁presentacion
-                └── contenedor__perfil.css
-                └── enlaces.css
-                └── presentacion.css
+                └──🎨 contenedor__perfil.css
+                └──🎨 enlaces.css
+                └──🎨 presentacion.css
             └── 📁proyectos
-                └── proyecto.css
-                └── proyectos.css
+                └──🎨 proyecto.css
+                └──🎨 proyectos.css
             └── 📁skills
-                └── skills.css
+                └──🎨 skills.css
                 └── 📁skillsBack
-                    └── skillsBack.css
+                    └──🎨 skillsBack.css
                 └── 📁skillsFront
-                    └── skillsFront.css
+                    └──🎨 skillsFront.css
             └── 📁sobre
-                └── sobre.css
-            └── normalize.css
-            └──![CSS](https://skillicons.dev/icons?i=css) reset.css
-            └── bases.css
-            └── tarjeta.css
+                └──🎨 sobre.css
+            └──🎨 normalize.css
+            └──🎨 reset.css
+            └──🎨 bases.css
+            └──🎨 tarjeta.css
         └── 📁document
             └── CV - Edynson Muñoz Jimenez.pdf
         └── 📁img
-            └── ciclismo.png
-            └── encriptador.png
-            └── file-earmark-person-fill.svg
-            └── github.svg
-            └── linkedin.svg
-            └── logo-angular1.png
-            └── logo-CSS3.png
-            └── logo-hibernate1.svg
-            └── logo-HTML5.png
-            └── logo-java1.png
-            └── logo-javascript.png
-            └── logo-mysql1.png
-            └── logo-oraclesql1.png
-            └── logo-php1.png
-            └── logo-php2.png
-            └── logo-postgresql1.png
-            └── logo-python1.png
-            └── logo-React.png
-            └── logo-spring-boot1.png
-            └── logo-sql1.png
-            └── perfil-caricatura.png
-            └── perfil-fisico.jpg
-            └── programando.png
-            └── proyecto-deporte.png
-            └── proyecto-portafolio.png
-            └── proyecto1org.png
-    └── app.js
-    └── index.html
-    └── readme.md
-    └── validaciones.js
+            └──🖼️ ciclismo.png
+            └──🖼️ encriptador.png
+            └──🖼️ file-earmark-person-fill.svg
+            └──🖼️ github.svg
+            └──🖼️ linkedin.svg
+            └──🖼️ logo-angular1.png
+            └──🖼️ logo-CSS3.png
+            └──🖼️ logo-hibernate1.svg
+            └──🖼️ logo-HTML5.png
+            └──🖼️ logo-java1.png
+            └──🖼️ logo-javascript.png
+            └──🖼️ logo-mysql1.png
+            └──🖼️ logo-oraclesql1.png
+            └──🖼️ logo-php1.png
+            └──🖼️ logo-php2.png
+            └──🖼️ logo-postgresql1.png
+            └──🖼️ logo-python1.png
+            └──🖼️ logo-React.png
+            └──🖼️ logo-spring-boot1.png
+            └──🖼️ logo-sql1.png
+            └──🖼️ perfil-caricatura.png
+            └──🖼️ perfil-fisico.jpg
+            └──🖼️ programando.png
+            └──🖼️ proyecto-deporte.png
+            └──🖼️ proyecto-portafolio.png
+            └──🖼️ proyecto1org.png
+    └──⚙️ app.js
+    └──📄 index.html
+    └──  readme.md
+    └──⚙️ validaciones.js
 ```
