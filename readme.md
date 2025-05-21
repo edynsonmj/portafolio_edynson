@@ -3,7 +3,7 @@
 ¡Bienvenido a mi portafolio personal de desarrollo web! 🚀  
 Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript puro**, sin frameworks, como una demostración de mis habilidades en diseño web responsivo y desarrollo front-end.
 
-![\assets\img\proyecto-portafolio.png]() <!-- Puedes subir una imagen del sitio y referenciarla aquí -->
+![](\assets\img\proyecto-portafolio.png) <!-- Puedes subir una imagen del sitio y referenciarla aquí -->
 
 ---
 
@@ -78,7 +78,7 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
         └── 📁document
             └── CV - Edynson Muñoz Jimenez.pdf
         └── 📁img
-            └── :package: ciclismo.png
+            └── ciclismo.png
             └── encriptador.png
             └── file-earmark-person-fill.svg
             └── github.svg
