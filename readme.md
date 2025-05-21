@@ -38,7 +38,7 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
     └── 📁assets
         └── 📁css
             └── 📁cabecera
-                └── cabecera.css
+                └──:style.css: cabecera.css
                 └── cabeceras.css
                 └── correo.css
                 └── logo.css
