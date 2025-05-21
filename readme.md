@@ -38,7 +38,7 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
     └── 📁assets
         └── 📁css
             └── 📁cabecera
-                └──:style.css: cabecera.css
+                └── cabecera.css
                 └── cabeceras.css
                 └── correo.css
                 └── logo.css
@@ -72,7 +72,7 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
             └── 📁sobre
                 └── sobre.css
             └── normalize.css
-            └── reset.css
+            └──![CSS](https://skillicons.dev/icons?i=css) reset.css
             └── bases.css
             └── tarjeta.css
         └── 📁document
