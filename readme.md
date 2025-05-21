@@ -3,7 +3,7 @@
 ¡Bienvenido a mi portafolio personal de desarrollo web! 🚀  
 Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript puro**, sin frameworks, como una demostración de mis habilidades en diseño web responsivo y desarrollo front-end.
 
-![](\assets\img\proyecto-portafolio.png) <!-- Puedes subir una imagen del sitio y referenciarla aquí -->
+![vista previa](assets\img\proyecto-portafolio.png) <!-- Puedes subir una imagen del sitio y referenciarla aquí -->
 
 ---
 
