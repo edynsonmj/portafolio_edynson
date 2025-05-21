@@ -106,6 +106,6 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
             └──🖼️ proyecto1org.png
     └──⚙️ app.js
     └──📄 index.html
-    └──  readme.md
+    └──📝 readme.md
     └──⚙️ validaciones.js
 ```
