@@ -1,4 +1,4 @@
-# 💼 Portafolio Web - [Edynson Muñoz Jimenez]
+# 💼 Portafolio Web - Edynson Muñoz Jimenez
 
 ¡Bienvenido a mi portafolio personal de desarrollo web! 🚀  
 Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript puro**, sin frameworks, como una demostración de mis habilidades en diseño web responsivo y desarrollo front-end.
