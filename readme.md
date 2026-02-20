@@ -9,13 +9,8 @@ Este proyecto ha sido construido **exclusivamente con HTML, CSS y JavaScript pur
 
 ## 🌐 Enlace en Vivo
 
-<<<<<<< HEAD
 🔗 [Visitar sitio](https://edynsonmj.github.io/portafolio_edynson/)
-=======
-🔗 [visitar sitio](https://edynsonmj.github.io/portafolio_edynson/)
->>>>>>> abf359a348695947aeec73a57ca82b435cf02549
 
----
 
 ## 🛠️ Tecnologías Utilizadas
 
